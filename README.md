@@ -11,6 +11,14 @@
 **Thoughts**: Today just confirmed my belief that just because we have all the tools and fancy algorithms doesn't mean that we can just throw data at it without understanding what's happening. I think that those experiences are much more valuable than any lesson or any course.
 
 ## Day 2: Sunday, July 8, 2018
-**Progress**: As another step in the Kurdish Language NLP applications. I tried to build a word embedding. I got my data from the Kurdish Wikipedia and finished processing it into a useful format for such a task. I started training the embedding and will continue refining my network and verifying the results by asking a native Kurdish person to check the word similarity.
+**Progress**: As another step in the Kurdish Language NLP applications. I tried to build a word embedding. I got my data from the [Kurdish Wikipedia](ku.wikipedia.com) and finished processing it into a useful format for such a task. I started training the embedding and will continue refining my network and verifying the results by asking a native Kurdish person to check the word similarity.
 
-**Thoughts**: I have used embedding many times but I had to brush up on my knowledge by following the tutorials on Tensorflow website and Google ML crash course. My knowledge allowed me to get up to speed in less than a day but it also means that I need to keep practicing those skills so that I don't forget them. 
+**Thoughts**: I have used embeddings many times but I had to brush up on my knowledge by following the tutorials on [TensorFlow](www.tensorflow.org) website and [Google ML crash course](https://developers.google.com/machine-learning/crash-course/ml-intro). My knowledge allowed me to get up to speed in less than a day but it also means that I need to keep practicing those skills so that I don't forget them.
+
+Today's work: https://github.com/ammarasmro/Kurdish-Language/tree/master/utils
+
+
+## Day 3: Monday, July 9, 2018
+**Progress**: Today was a busy day so I tried to make up by reading the [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/). I studied section 4.4.1 Searching with no observation and explored how belief states can be utilized to replace sensors.
+
+**Thoughts**: I was surprised to know that there are problems that can be completely solved without any input from sensors. It's true sensors do give valuable input but they are a very expensive component. However this method, if not designed properly, can introduce exponential complexity to the solution.
