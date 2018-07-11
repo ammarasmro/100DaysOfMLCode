@@ -23,7 +23,7 @@ Today's work: https://github.com/ammarasmro/Kurdish-Language/tree/master/utils
 
 **Thoughts**: I was surprised to know that there are problems that can be completely solved without any input from sensors. It's true sensors do give valuable input but they are a very expensive component. However this method, if not designed properly, can introduce exponential complexity to the solution.
 
-## Day 4: Monday, July 9, 2018
+## Day 4: Monday, July 10, 2018
 **Progress**: Today was good for both learning and coding. I started the day with an hour on the Deep Reinforcement Learning Nanodegree on Udacity. Next, to do some coding I started a new open-source project aimed to help me practice building chatbots and to also be a learning path for someone just entering the field.
 
 **Thoughts**: I'm very excited for the Deep RL course and I can't wait to learn how to incorporate it within my projects. I have been looking for such a resource for a long time. The beauty of Udacity courses is that they are very well structured and they gather the right resources from so many places. My favourite part is always the suggested readings.
