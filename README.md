@@ -30,3 +30,45 @@ Today's work: https://github.com/ammarasmro/Kurdish-Language/tree/master/utils
 As for the chatbots project, I think that it's necessary to take a step back and go to the basics before relying on fancy algorithms to do the job and I think that journey will help me grow in the Natural Language Processing field.
 
 Today's work: https://github.com/ammarasmro/chatbots-zero-to-hero
+
+
+## Days 5, 6, 7: July 10 to 12, 2018
+**Progress**: During the last few days I was working on gathering and cleaning data for a Kurdish word embedding. Having word embeddings helps in many applications as it adds semantic knowledge to our model by representing data in a way that reflects its true meaning in a way that is useful for our model. One cool thing about embeddings is the ability to visualize them and see which words are clustered together. I chose to do this mini project for several reasons:
+
+* I can barely speak the language and the data is in different dialects
+* I haven't seen any efforts to do this task for the Kurdish language
+* I like challenges
+
+The scope of this project needed to be specific to fit into the challenges requirements and to be finished quickly. So, I narrowed it down into the Sorani dialect and got the data as an xml dump from the [Sorani Kurdish Wikipedia](ckb.wikipedia.com).
+
+Next, came the data preparation part. I looked at how TensorFlow documentation does this and they used a dataset of concatenated words called text8. I used a pipeline that I built on Day 2 of the challenge, plus the WikiExtractor tool, to extract data from the dump and prepare it for training. I have also included this dataset on my GitHub for anyone to download and use. It does need a bit of cleansing but it will do for my current applications.
+
+[**Sorani text8**](https://github.com/ammarasmro/Kurdish-Language/blob/master/utils/text8.txt)
+
+[**Kurmanji text8**](https://github.com/ammarasmro/Kurdish-Language/blob/master/utils/text8ku.txt)
+
+For the training part, I followed the embeddings tutorials on the TensorFlow documentation and even with 28 MB of text the results are impressive. Here are few of the results that caught my eye:
+
+Query | Nearby words | English category
+--- | --- | ---
+شوباتی | نیسانی, حوزەیرانی, ڕۆژی, ئازاری | Months
+عێراق | ئێران, جەزائیری, ئەڵمانیا, ڕوسیای, تورکیا | Countries
+عەرەبی | فارسی, کوردی, ئینگلیزی | Languages
+
+The last day was spent on getting the data representation to work on a static website so that I can share it. Finally found the widget that does just that. You can find the visualization here. I will try to train better models and upload them soon but the current one isn't so bad.
+
+To start just go to [The project's website](https://ammarasmaro.com/Kurdish-Language/)
+
+Here is a peek at what to expect and how to navigate it.
+To start
+![Starting](https://github.com/ammarasmro/Kurdish-Language/blob/master/visualizations/start.gif)
+
+To query for a word
+![Query](https://github.com/ammarasmro/Kurdish-Language/blob/master/visualizations/query.gif)
+
+To switch to t-SNE
+![t-SNE](https://github.com/ammarasmro/Kurdish-Language/blob/master/visualizations/tsne.gif)
+
+
+
+**Thoughts**: I'm glad I did this mini project. It gave me confidence to pursue further similar projects and it will sure be beneficial to include in the next projects.
