@@ -61,14 +61,26 @@ To start just go to [The project's website](https://ammarasmaro.com/Kurdish-Lang
 
 Here is a peek at what to expect and how to navigate it.
 To start
+
 ![Starting](https://github.com/ammarasmro/Kurdish-Language/blob/master/visualizations/start.gif)
 
 To query for a word
+
 ![Query](https://github.com/ammarasmro/Kurdish-Language/blob/master/visualizations/query.gif)
 
 To switch to t-SNE
+
 ![t-SNE](https://github.com/ammarasmro/Kurdish-Language/blob/master/visualizations/tsne.gif)
 
 
 
 **Thoughts**: I'm glad I did this mini project. It gave me confidence to pursue further similar projects and it will sure be beneficial to include in the next projects.
+
+
+## Days 8 & 9: July 14 & 15, 2018
+**Progress**:
+* Covered the policy and state-value and action-value functions of the Reinforcement Learning ND on Udacity. As part of that I also read chapter 3 of the [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf) which covered the same concepts.
+* Explored the talkthewalk dataset published by Facebook few days ago and read the pre-write of their paper. This dataset aims to be the basis of a new approach to teaching computers how to communicate in natural language. In the next few days I will try to tackle this problem from different angles and see if I can add value to what they found.
+* Started working on a prototype for the Kurdish NLP website.
+
+**Thoughts**: Those two days were spent mostly learning but they paved the way towards several days of experiments and research. 
