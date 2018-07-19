@@ -83,4 +83,21 @@ To switch to t-SNE
 * Explored the talkthewalk dataset published by Facebook few days ago and read the pre-write of their paper. This dataset aims to be the basis of a new approach to teaching computers how to communicate in natural language. In the next few days I will try to tackle this problem from different angles and see if I can add value to what they found.
 * Started working on a prototype for the Kurdish NLP website.
 
-**Thoughts**: Those two days were spent mostly learning but they paved the way towards several days of experiments and research. 
+**Thoughts**: Those two days were spent mostly learning but they paved the way towards several days of experiments and research.
+
+## Days 10: July 16, 2018
+**Progress**:
+* Implemented several Dynamic Programming algorithms as part of the Deep Reinforcement Learning ND on Udacity. The algorithms were:
+  * Iterative policy evaluation
+  * Estimation of Action Values
+  * Policy Improvement
+  * Policy Iteration
+  * Truncated Policy Iteration
+  * Value Iteration
+
+* Improved the Progressive Graph Builder API (ProGBA) on a private repo and will start open-sourcing parts of it soon.
+[Demo web app](http://ammarasmaro.com/progba-web-app/)
+
+
+**Thoughts**: Even though dynamic programming algorithms were so simple yet they proved very effective. However, they are limited by the fact that they require full knowledge of the Markov Decision Process (MDP), which isn't feasible in real world environments.
+As for the ProGBA project. It seems to be getting to the end result but I believe that it's time to demo it to decide how to move forward.
