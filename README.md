@@ -101,3 +101,18 @@ To switch to t-SNE
 
 **Thoughts**: Even though dynamic programming algorithms were so simple yet they proved very effective. However, they are limited by the fact that they require full knowledge of the Markov Decision Process (MDP), which isn't feasible in real world environments.
 As for the ProGBA project. It seems to be getting to the end result but I believe that it's time to demo it to decide how to move forward.
+
+## Days 11: July 17, 2018
+**Progress**:
+* Trained an end-to-end Automatic Speech Recognition (ASR) model to turn Kurdish, language, speech into text. It uses a deep neural network with
+ 1. One convolutional layer
+ 2. Two bidirectional RNN's
+ 3. A time distributed dense layer
+
+ This model was trained using phone conversations in the Kurmanji dialect with their hand annotated scripts.
+
+**Thoughts**: The use of the convolutional layer proved very useful in recognizing patterns for this task. Especially that phone conversations can be particularly harder than usual audio datasets of people reading books. Audio conversations contain many uniquely spoken words, alot of noise, and alot of silence. The dataset was also small, so I didn't expect much from it. However, it seems to work well for words that occur more often than others, such as numbers. Another part that caught my attention was that in Kurdish, there are letters that are very similar and the model was often able to detect that difference.
+
+Further development could include adding a language model at the end to enhance the quality of the resulted words. Dropout layers could also be added to avoid the overfitting too.
+
+Today's work: https://github.com/ammarasmro/Kurdish-Language/tree/master/speech-recognition
