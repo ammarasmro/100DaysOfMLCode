@@ -116,3 +116,12 @@ As for the ProGBA project. It seems to be getting to the end result but I believ
 Further development could include adding a language model at the end to enhance the quality of the resulted words. Dropout layers could also be added to avoid the overfitting too.
 
 Today's work: https://github.com/ammarasmro/Kurdish-Language/tree/master/speech-recognition
+
+## Day 13: July 19, 2018
+**Progress**:
+Today I decided to go back to the basics and start from the most naive algorithms, Naive Bayes. I used it on a FIFA worldcup dataset on Kaggle to predict if a member of the playing team got the "Man of the Match" title in a match.
+
+**Thoughts**: With some processing and improvement I got 69.7 % accuracy. It's not state of the art but with a dataset as small as this one, with 128 rows only, those results are a good start.
+
+Today's work
+https://www.kaggle.com/ammarasmaro/naive-approach/notebook
