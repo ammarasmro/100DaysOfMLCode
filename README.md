@@ -102,7 +102,7 @@ To switch to t-SNE
 **Thoughts**: Even though dynamic programming algorithms were so simple yet they proved very effective. However, they are limited by the fact that they require full knowledge of the Markov Decision Process (MDP), which isn't feasible in real world environments.
 As for the ProGBA project. It seems to be getting to the end result but I believe that it's time to demo it to decide how to move forward.
 
-## Days 11: July 17, 2018
+## Days 11 and 12: July 17 and 18, 2018
 **Progress**:
 * Trained an end-to-end Automatic Speech Recognition (ASR) model to turn Kurdish, language, speech into text. It uses a deep neural network with
  1. One convolutional layer
