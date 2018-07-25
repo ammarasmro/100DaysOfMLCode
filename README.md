@@ -125,3 +125,19 @@ Today I decided to go back to the basics and start from the most naive algorithm
 
 Today's work
 https://www.kaggle.com/ammarasmaro/naive-approach/notebook
+
+## Day 14: July 20, 2018
+**Progress**:
+Revised the Dynamic programming section of the Reinforcement Learning ND on Udacity and started reading chapter 4 of the RL book related to the same section.
+
+**Thoughts**: Those algorithms seem to be very important in this field and are very applicable to various problems so I'm spending extra time to make sure I master it.
+
+## Days 16 and 17: July 21 and 22, 2018
+**Progress**: Spent those days on the Progressive Graph Builder API that uses machine learning, graph theory, and NLP techniques to map text to graphs. This is a personal project and I will open-source parts of it as soon as I can.
+
+**Thoughts**: Work on personal projects is always more interesting as it doesn't feel like a task but rather just me doing what I truly love.
+
+## Day 18: July 23, 2018
+**Progress**: Followed the level 1 of the machine learning track on Kaggle.
+
+**Thoughts**: I learned alot of information and I highly recommend it as it has the same value as some online courses that take a much longer time to complete.
